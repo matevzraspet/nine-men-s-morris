@@ -80,7 +80,7 @@ public class Plosca extends JPanel implements MouseListener {
 		double x = i - w / 2;
 		double y = j - w / 2;
 		g2.setColor(Color.white);
-		g2.fillOval((int) x - 1, (int) y - 1, (int) w + 2, (int) w + 2);
+		g2.fillOval((int) x - 1, (int) y - 1, (int) w + 3, (int) w + 3);
 	}
 
 	@Override
